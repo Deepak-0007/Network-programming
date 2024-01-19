@@ -4,7 +4,7 @@ public class server{
 public static void main(String [] args){
 try{
 ServerSocket ss=new ServerSocket(6666);
-System.out.println("Waiting for connection........");
+System.out.println("Waiting for connection......");
 Socket s=ss.accept();
 System.out.println("connected");
 DataInputStream dis = new DataInputStream(s.getInputStream());
